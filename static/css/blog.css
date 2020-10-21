@@ -1,0 +1,155 @@
+body { 
+    margin:0;
+    padding: 0;
+    font-family:Roboto, sans-serif; 
+}
+
+.main_title {
+    background: #3AAFA9;
+    text-align: center;
+    margin: 0;
+    height: 45px;
+    padding: 12px;
+    border: 0px; 
+}
+
+.main_link{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.post-title {
+    font-weight: 600;
+}
+
+a { 
+    color:#00abff;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    background: cornsilk;
+    height:100%;
+}
+
+.post_title {
+    font-weight: bold;
+    color: darkviolet;
+}
+
+p.date { 
+    color:darkorange;
+    font-family: georgia, serif;
+    font-size: 13px;
+    font-style: italic; 
+}
+
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+
+input, textarea { 
+    font-family: Roboto, sans-serif;
+    font-weight:600;
+    clear: both;
+    float: left;
+    margin: 0 0 10px;
+    background: #ededed;
+    border: 0;
+    padding: 6px 12px;
+    font-size: 12px;
+    resize: none;
+    border-radius: 0px;
+    font-size:13px;
+    width: 50%;
+    padding: 16px 20px;
+    border: 1px solid #d6dadc;
+    background-color: #fff;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+    color: #011c28;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+input:hover, textarea:hover {
+    background:lightgray;
+}
+
+input[type=submit] {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight:bold;
+    background:#4F6C6B;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+input[type=submit]:hover {
+    background-color: green;
+  }
+
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    
+    font-size:11px;
+    color:#666;
+}
+
+.comment-name {
+    font-weight:bold;
+    font-size:14px;
+    color:black;
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
