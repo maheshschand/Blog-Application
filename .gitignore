@@ -2,3 +2,4 @@
 __pycache__
 blog/migrations
 templatetags/__pycache__
+staticfiles/
