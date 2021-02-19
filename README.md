@@ -1,6 +1,6 @@
 # Blog Application
 
-Blog Application created using Django framewok
+Blog Application created using Django framework
 
 ## Features
 - Creating, editing, deleting a blog post.
